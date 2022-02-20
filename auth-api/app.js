@@ -1,5 +1,10 @@
 //import { Express } from "express";
+//import * as db from "./src/config/db/initialData";
+
 const express = require('express')
+const db = require("./src/config/db/initialData")
+
+db.createInitialData;
 
 const app = express();
 const env = process.env;
